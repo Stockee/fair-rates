@@ -1,0 +1,2 @@
+# fair-rates
+GitHub Pages
