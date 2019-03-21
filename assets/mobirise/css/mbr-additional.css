@@ -1297,6 +1297,17 @@ body {
     flex: auto!important;
   }
 }
+.jq-selectbox li:hover,
+.jq-selectbox li.selected {
+  background-color: #149dcc;
+  color: #ffffff;
+}
+.jq-selectbox .jq-selectbox__trigger-arrow {
+  border-top-color: contrast(currentColor, #000000, #ffffff, 30%);
+}
+.jq-selectbox:hover .jq-selectbox__trigger-arrow {
+  border-top-color: #149dcc;
+}
 .cid-riU5fTKIk6 .navbar {
   background: #ffffff;
   transition: none;
@@ -1783,6 +1794,85 @@ body {
   .cid-riUrery2nk .card {
     -webkit-flex-basis: 33%;
     flex-basis: 33%;
+  }
+}
+.cid-rloiiI9ugu {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #f7f7f7;
+}
+.cid-rloiiI9ugu .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rloiiI9ugu .container-table {
+  margin: 0 auto;
+}
+.cid-rloiiI9ugu .scroll {
+  overflow-x: auto;
+  padding: 0;
+}
+.cid-rloiiI9ugu .dataTables_wrapper {
+  display: block;
+}
+.cid-rloiiI9ugu .dataTables_wrapper .search {
+  margin-bottom: .5rem;
+}
+.cid-rloiiI9ugu .dataTables_wrapper .table {
+  overflow-x: auto;
+}
+.cid-rloiiI9ugu table {
+  width: 100% !important;
+  margin-top: 6px;
+  border: 1px solid #cccccc;
+  margin-bottom: 0;
+}
+.cid-rloiiI9ugu table th {
+  border-top: none;
+  transition: all .2s;
+  border-bottom: none;
+}
+.cid-rloiiI9ugu table th:hover {
+  background: #cccccc;
+  color: #000000;
+}
+.cid-rloiiI9ugu table td {
+  border-top: 1px solid #cccccc;
+}
+.cid-rloiiI9ugu table.table {
+  background: #ffffff;
+}
+.cid-rloiiI9ugu .dataTables_filter {
+  text-align: right;
+  margin-bottom: .5rem;
+}
+.cid-rloiiI9ugu .dataTables_filter label {
+  display: inline;
+  white-space: normal !important;
+}
+.cid-rloiiI9ugu .dataTables_filter input {
+  display: inline;
+  width: auto;
+  margin-left: .5rem;
+  border-radius: 100px;
+  padding-left: 1rem;
+}
+.cid-rloiiI9ugu .dataTables_info {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  white-space: normal !important;
+}
+@media (max-width: 992px) {
+  .cid-rloiiI9ugu .dataTables_filter {
+    text-align: center;
+  }
+}
+@media (max-width: 350px) {
+  .cid-rloiiI9ugu .dataTables_filter {
+    text-align: center;
+  }
+  .cid-rloiiI9ugu .dataTables_filter input {
+    width: 100% !important;
+    margin-left: 0 !important;
   }
 }
 .cid-riZlgxQgLo {
